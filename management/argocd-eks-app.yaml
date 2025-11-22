@@ -11,9 +11,9 @@ spec:
     path: 'capi-cluster/aws-eks'
     repoURL: 'https://github.com/NaoyaOhashi/eks-ec2-clusterapi-gitops'
     targetRevision: HEAD
-    helm:
-     valueFiles:
-       - values-c1.yaml
+    #helm:
+     #valueFiles:
+       #- values-c1.yaml
   project: default
   syncPolicy:
     automated:
